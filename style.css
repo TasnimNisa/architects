@@ -1,0 +1,170 @@
+.footer{
+    margin: 30px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(122, 205, 238);
+    height: 20px;
+}
+.logo{
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+    padding-left: 40px;
+   
+}
+.logo, img{
+    width: 300px;
+}
+.our-sports{
+  margin: 10px; 
+  padding: 20px; 
+}
+.our{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.somw-h1{
+    font-weight: 700;
+    font-size: 30px;
+    color: #222121;
+    margin-bottom: 10px;   
+}
+.some-fact{
+   margin: 20px;
+   padding: 20px;
+}
+.design{
+    gap: 24px;
+}
+.icons{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between; 
+    justify-content: space-evenly;
+    padding-right: 20px;
+}
+.future-h1{
+    border-left: solid rgba(8, 152, 236, 0.87);
+    font-weight: 700;
+    font-size: 30px;
+    color: #222121;
+    margin-bottom: 10px;
+}
+.futurres-img{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+
+}
+.futures-text{
+    width: 50%;
+    border-style: solid;
+  border-width: 5px 20px;
+}
+.features{ 
+    display: flex;
+    padding: 20px;
+}
+.features-container{
+    width: 100%;
+    display: flex;
+}
+.quick-img{
+    width: 50%;
+    flex: 50%;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.quick-img, img{
+ width: 50%;
+ display: flex;
+ flex-wrap: wrap;
+}
+.quick-list{
+    width: 50%; 
+    justify-content: center;
+    padding: 10px;
+}
+.quick{
+    display: flex;
+}
+.quick-h1{
+    font-weight: 700;
+    font-size: 30px;
+    color: #222121;
+    margin-bottom: 10px;
+}
+@media screen and (max-width:576) {
+    .quick{
+        flex-direction: column;
+    }
+  .quick img{
+    width: 100%;
+  } 
+  .features{
+    flex-direction: column;
+  }
+}
+.img1{
+    background-image: url('images/banner.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+}
+.img1, .img{
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+}
+.brand{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.brand-new-h1{
+    font-weight: 700;
+    font-size: 40px;
+    color: #222121;
+    margin-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+    margin-left: 20px;
+}
+#arc{
+    font-weight: 100;
+    font-size: 40px;
+    color: #222121;
+    margin-bottom: 10px;  
+}
+.nav{
+    margin: 10px;
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.ancore{
+    justify-content: space-evenly;
+    padding-right: 20px;
+}
+.button{
+    background-color: rgb(53, 194, 230);
+    border-radius: 5%;
+    height: 60px;
+    width: 100px;
+    color: aliceblue;
+    font-weight: 300px;
+}
+@media screen and (min-width: 577px) and (max-width:992px) {
+.img{
+    width: 100%;
+}
+}
+
